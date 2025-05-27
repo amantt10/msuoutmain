@@ -14,16 +14,12 @@ module.exports = {
   ],
   theme: {
   	extend: {
-  		boxShadow: {
-  			input: '`0px 2px 3px -1px rgba(0,0,0,0.1), 0px 1px 0px 0px rgba(25,28,33,0.02), 0px 0px 0px 1px rgba(25,28,33,0.08)`'
-  		},
+		boxShadow: {
+			input: `0px 2px 3px -1px rgba(0,0,0,0.1), 0px 1px 0px 0px rgba(25,28,33,0.02), 0px 0px 0px 1px rgba(25,28,33,0.08)`,
+		  },
   		colors: {
-  			maroon: {
-  				primary: '#5D1725',
-  				secondary: '#470F1A'
-  			},
   			green: {
-  				'50': '#2C8076',
+  				'50': '#30AF5B',
   				'90': '#292C27'
   			},
   			gray: {
@@ -31,9 +27,7 @@ module.exports = {
   				'20': '#A2A2A2',
   				'30': '#7B7B7B',
   				'50': '#585858',
-  				'90': '#141414',
-  				primary: '#151439',
-  				secondary: '#969696'
+  				'90': '#141414'
   			},
   			orange: {
   				'50': '#FF814C'
@@ -98,19 +92,6 @@ module.exports = {
   			lg: 'var(--radius)',
   			md: 'calc(var(--radius) - 2px)',
   			sm: 'calc(var(--radius) - 4px)'
-  		},
-  		animation: {
-  			shimmer: 'shimmer 2s linear infinite'
-  		}
-  	},
-  	keyframes: {
-  		shimmer: {
-  			from: {
-  				backgroundPosition: '0 0'
-  			},
-  			to: {
-  				backgroundPosition: '-200% 0'
-  			}
   		}
   	}
   },
